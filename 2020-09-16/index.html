@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS flex</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<!--Mygtukai vienas po kito. pirma reikia kurtis lista <ul> kiekvienas listo item dedamas su tag <li> -->
+<!--reikia nepamirsti, kad mygtukai kuriami su <a href> (jis ideda hyperlinka) o ne su <button> tokio negali niekada buti-->
+<ul class="linkai">
+    <li><a href="https://css-tricks.com/almanac/properties/f/flex-wrap/">Pirmas linkas</a></li>
+    <li><a href="https://css-tricks.com/almanac/properties/f/flex-wrap/">Antras linkas</a></li>
+    <li><a href="https://css-tricks.com/almanac/properties/f/flex-wrap/">Trecias linkas</a></li>
+</ul>
+
+
+<!-- Mokausi google fonts -->
+<h3>CSS Font</h3>
+<p>Procuring education on consulted assurance in do. Is sympathize he expression mr no travelling. Preference he he at
+    travelling in resolution. So striking at of to welcomed resolved. Northward by described up household therefore
+    attention. Excellence decisively nay man yet impression for contrasted remarkably. There spoke happy for you are
+    out. Fertile how old address did showing because sitting replied six. Had arose guest visit going off child she
+    new. </p>
+
+
+<!-- CSS flex wrap -->
+<!-- Reikia butinai pasidaryti pagrindini div class container ir po visu vaikuciu turi buti </div> -->
+<div class="container">
+
+    <div class="kubeliai">
+        <p>Pirmas
+        </p>
+    </div>
+
+    <div class="kubeliai">
+        <p>Antras
+        </p>
+    </div>
+
+    <div class="kubeliai">
+        <p>Trecias
+        </p>
+    </div>
+
+    <div class="kubeliai">
+        <p>Ketvirtas
+        </p>
+    </div>
+
+    <div class="kubeliai">
+        <p>Ketvirtas
+        </p>
+    </div>
+
+    <div class="kubeliai">
+        <p>Penktas
+        </p>
+    </div>
+</div>
+<!--CSS flex tesiasi -->
+<div class="container2">
+
+    <div class="dideli">
+        <p>Pirmas
+        </p>
+    </div>
+
+    <div class="dideli">
+        <p>Antras
+        </p>
+    </div>
+
+    <div class="dideli">
+        <p>Trecias
+        </p>
+    </div>
+
+    <div class="dideli">
+        <p>Ketvirtas
+        </p>
+    </div>
+
+    <div class="dideli">
+        <p>Ketvirtas
+        </p>
+    </div>
+
+    <div class="dideli">
+        <p>Penktas
+        </p>
+    </div>
+</div>
+
+<!-- Css pratybos mygtukas tobulai viduryje -->
+<div class="viduryje">
+    <a href="https://flexboxfroggy.com/">Mygtukas
+    </a>
+</div>
+
+<!-- pabandymai su justify content ir item align (ten tie visi flex-start, flex-end, centre)-->
+<div class="papildomas">
+    <div class="papildomas1">
+        <a href="https://css-tricks.com/almanac/properties/f/flex-wrap/">Mygtukas2
+        </a>
+    </div>
+
+    <div class="papildomas2">
+        <a href="https://css-tricks.com/almanac/properties/f/flex-wrap/">Mygtukas3
+        </a>
+    </div>
+
+    <div class="papildomas3">
+        <a href="https://css-tricks.com/almanac/properties/f/flex-wrap/">Mygtukas4
+        </a>
+    </div>
+</div>
+<!--Antras tobulai centruotas mygtukas-->
+<div id="parent">
+    <div id="child">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex">Tobulas mygtukas</a>
+    </div>
+</div>
+
+<script src="js.js">
+</script>
+</body>
+
+</html>
