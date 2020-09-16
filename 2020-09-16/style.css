@@ -1,0 +1,86 @@
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+p {
+    font-family: 'Anton', sans-serif;
+}
+.container {
+    display: flex;
+}
+.kubeliai {
+    background-color: aqua;
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dideli {
+background-color: #a52a2a;
+    margin: 15px;
+    height: 300px;
+    width: 300px;
+}
+.viduryje {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.papildomas1 {
+    display: flex;
+    background-color: greenyellow;
+    justify-content:flex-start;
+    align-items: stretch;
+
+}
+.papildomas2{ display: flex;
+    background-color: firebrick;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 50px;
+}
+.papildomas3{
+    display: flex;
+    background-color: darkgoldenrod;
+    justify-content: space-evenly;
+    align-items: baseline;
+    height: 50px;
+
+}
+/*bendri nustatymai vadinamai lentelei(mygtukams)flex'as leidzia items issidelioti ne vienas po kito apacioje, bet tiesiai (is kaires i desine arba kitaip)*/
+/*ul yra tevas .linkas yra vaikai*/
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.linkai a {
+    background-color: chocolate;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+}
+/*pseudo kodas a:hover uzvedus pele and mygtuko nusispalvina kitaip*/
+.linkai a:hover {
+    background-color: cadetblue;
+    color: darkgoldenrod;
+}
+#parent {
+    display: flex;
+    height: 100px;
+    border: solid;
+}
+#child {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+;
+}
